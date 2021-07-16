@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  dockapp:	
+    build: .
+    volumes:
+      - ./app:/home/app
+    environment:
+      - TZ=America/Mexico_City
+

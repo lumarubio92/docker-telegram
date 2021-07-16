@@ -1,0 +1,39 @@
+## edita el apartado de telegram.py y  telegram_message.py de la carpeta app
+    bot_token = ''
+    bot_chatID =''     
+
+##instrucciones para compilar el Dockerfile escribe
+
+docker build -t nombre:tag .
+
+##o en el caso de quererlo correr desde un docker-compose
+
+docker-compose up -d
+
+##para arrancar el contenedor escribe el siguiente comando
+
+docker images 
+
+##identifica el contenedor en el apartado de REPOSITORY Y TAG
+
+docker run --rm -ti REPOSITORY:TAG 
+
+##despues de que arranque el contenedor la terminal se encontrara en cd /home/app 
+
+ls
+
+## para ejecutar el programa de python
+python telegram.py   o   python3 telegram.py
+
+##si no conoces el horario del contenedor ejecuta hora.py 
+
+
+telegram.py -----> envia mensaje a telegram
+telegram_message.py ----> programa el envio de un mensaje y se puede modificar el mensaje y hora desde consola
+telegra_bot.py ----> envia un mensaje a cierta hora del dia
+hora.py ------> muestra la hora y fecha del host
+
+
+
+
+
